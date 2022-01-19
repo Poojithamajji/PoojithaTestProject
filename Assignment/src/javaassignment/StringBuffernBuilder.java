@@ -5,10 +5,11 @@ public class StringBuffernBuilder {
 
 	public static void main(String[] args) {
 		String str = "Hello"; 
-      
-		StringBuffer sBuffer = new StringBuffer("String to StringBuffer");
-	      sBuffer.append("Conversion");
-	      System.out.println(sBuffer); 
+		StringBuffer sbr = new StringBuffer(str); 
+        sbr.reverse(); 
+        System.out.println("String to StringBuffer");
+        System.out.println(sbr); 
+
           
         StringBuilder sbl = new StringBuilder(str); 
         sbl.append("world"); 
